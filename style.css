@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    font-family: 'Young Serif', sans-serif;
+    background-image: url(https://www.freevector.com/uploads/vector/preview/28148/EducationBackground_Preview_03.jpg);
+}
+
+.navbar{
+    background-color: aqua;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: right;
+    /* float: right; */
+}
+
+.link{
+    text-align: right;
+}
+
+.b_link{
+    text-align: right;
+    /* align-self: right; */
+    border: 2px solid black;
+    border-radius: 22px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Lobster', sans-serif;
+    color: blue;
+    text-align: left;
+    float: left;
+    font-size: 25px;
+}
+
+.logo_p{
+    /* text-decoration: none; */
+    font-family: 'Lobster', sans-serif;
+    color: blue;
+    text-align: left;
+    /* float: left; */
+    font-size: 54px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    font-family: 'Young Serif';
+    margin-top: 128px;
+    margin-bottom: 128px;
+    margin-left: 256px;
+    margin-right: 256px;
+    padding: 5%;
+    background-color: aquamarine;
+}
+
+.about{
+    font-family: 'Montserrat';
+    margin: 64px;
+    padding: 5%;
+    background-color: aquamarine;
+}
+
+input, button{
+    font-family: 'Young Serif';
+}
+
+h5{
+    font-family: 'Young Serif';
+    font-size: 28px;
+}
+
+.top{
+    float: right;
+    font-family: 'Young Serif';
+    font-size: 36px;
+}
+
+.trophy{
+    height: 30%;
+    width: 30%;
+}
